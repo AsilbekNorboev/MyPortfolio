@@ -1,0 +1,52 @@
+:root {
+    --primary: #5cc122d4;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn--primary {
+    background-color: var(--primary);
+    color: #0c77b5;
+    border: 1px solid var(--primary);
+  }
+  
+  .btn--outline {
+    background-color: transparent;
+    color: #32d832;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+  }
+  
+  .btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+  }
+  
+  .btn--large:hover,
+  .btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+
+  
+  
+  .btn {
+    border-radius: 10%; /* sets the border-radius to 50% of the button size */
+    padding: 10px 10px; /* optional: add padding to the button to make it look nicer */
+    background-color: rgb(90, 227, 35); /* optional: change the button color */
+    color: rgb(32, 152, 216); /* optional: change the button text color */
+  }
